@@ -12,7 +12,7 @@ class App extends Component {
  
 
   componentDidMount(){
-    this.interval = setInterval(this.handleAddTimer);
+    this.handleAddTimer();
   }
 
   componentWillUnmount(){
