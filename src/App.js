@@ -12,9 +12,7 @@ class App extends Component {
  
 
   componentDidMount(){
-     this.interval = setInterval(() => {
-    (this.clockTick);}
-    ,1000);
+    setInterval(this.clockTick,1000);
   }
   //Your code here:
 
